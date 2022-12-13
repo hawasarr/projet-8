@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+  background-image: url(/src/pexels-photo-6510344.jpeg);
+}
+.App.warm{
+  background-image: url(/src/pexels-photo-450052.jpeg);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+background-image: url("pexels-photo-450052.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+h1{
+  color: black;
+}
+p{
+  color: white;
+  font-size: 25px;
+}
+.p1{
+  color: black;
+  font-size: 25px;
+}
+.App-link {
+  color: black;
+  padding: 5px;
+  min-width: 90vh;
+
+}
+.div{
+  display: flex;
+  background-color: white;
+  align-items:baseline;
+  width: 60%;
+}
+ 
+.btn-submit{
+  border: none;
+  padding: 4px;
+  background-color: #f44336;
+  color: white;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
